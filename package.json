@@ -1,7 +1,7 @@
 {
   "name": "release-it",
   "private": true,
-  "version": "2022.6.6",
+  "version": "2022.6.7",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
