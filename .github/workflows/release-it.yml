@@ -3,9 +3,9 @@ on:
     branches:
       - main
 name: release-it
-jobs:
 git:
   requireCleanWorkingDir: false
+jobs:
   release:
     runs-on: ubuntu-latest
     steps:
