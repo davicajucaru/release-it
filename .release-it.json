@@ -3,8 +3,12 @@
     "release": true,
     "web": true
   },
+  "hooks": {
+    "after:bump": "npx auto-changelog -p"
+  },
   "git": {
-    "requireUpstream": false
+    "requireUpstream": false,
+    "changelog": "npx auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/master/templates/changelog-compact.hbs"
   },
   "plugins": {
     "@csmith/release-it-calver-plugin": {
