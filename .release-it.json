@@ -2,6 +2,9 @@
   "github": {
     "release": true
   },
+  "git": {
+    "requireUpstream": false
+  },
   "plugins": {
     "@csmith/release-it-calver-plugin": {
       "format": "yyyy.mm.minor",
