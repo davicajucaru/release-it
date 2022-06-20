@@ -4,6 +4,8 @@ on:
       - main
 name: release-it
 jobs:
+git:
+  requireCleanWorkingDir: false
   release:
     runs-on: ubuntu-latest
     steps:
