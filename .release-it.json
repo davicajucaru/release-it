@@ -5,7 +5,7 @@
     "requireCleanWorkingDir": false
   },
   "hooks": {
-    "after:bump": "npx lerna-changelog"
+    "after:bump": "npx auto-changelog -p"
   },
   "git": {
     "requireUpstream": false,
@@ -15,6 +15,10 @@
     "@csmith/release-it-calver-plugin": {
       "format": "yyyy.mm.minor",
       "increment": "calendar"
+    },
+    "release-it-lerna-changelog": {
+      "infile": "CHANGELOG.md",
+      "launchEditor": true
     }
   }
 }
