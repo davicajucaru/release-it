@@ -5,7 +5,7 @@
     "requireCleanWorkingDir": false
   },
   "hooks": {
-    "after:bump": "npx auto-changelog -p"
+    "after:bump": "npx lerna-changelog"
   },
   "git": {
     "requireUpstream": false,
