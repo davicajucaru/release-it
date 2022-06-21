@@ -15,10 +15,6 @@
     "@csmith/release-it-calver-plugin": {
       "format": "yyyy.mm.minor",
       "increment": "calendar"
-    },
-    "release-it-lerna-changelog": {
-      "infile": "CHANGELOG.md",
-      "launchEditor": true
     }
   }
 }
